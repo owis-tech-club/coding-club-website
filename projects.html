@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA - Network Of Virtual Aces</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <!-- NOVA Logo with Hover Effect -->
+            <div class="logo-container" id="logo">
+                <h1 class="logo-short">NOVA</h1>
+                <h1 class="logo-full">Network Of Virtual Aces</h1>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="nav-links">
+                <a href="#welcome" class="nav-link">Welcome</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#team" class="nav-link">Team</a>
+                <a href="#partners" class="nav-link">Partners</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="projects.html" class="nav-link" type="_blank">Featured Projects</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <section id="welcome" class="hero-section">
+        <div class="pattern-bg"></div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Featured Projects</h1>
+            <p class="hero-subtitle">Take a look at our club's featured projects!</p>
+            <button class="cta-button" onclick="scrollToSection('projects')">
+                Discover More
+                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" class="chevron-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+        </div>
+    </section>
+    <section id="projects" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Our Projects</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="nyxinc.png" class="project-img">
+                    <h3 class="project-title"><a class="project-title-link" href="https://oblivion396.github.io/Nyx-Inc/">NYX Inc</a></h3>
+                    <p class="project-text">This was our first submission to the Boba Drops YSWS. Submitted by <a href="https://github.com/Oblivion396" target="_blank" class="creator">Oblivion396</a>. View the <a href="https://github.com/Oblivion396/Nyx-Inc" target="_blank" class="creator">repository</a>.</p>
+                    <div class="tag-grid">
+                        <div class="project-tag-boba"><p class="tag-text">Boba Drops</p></div>
+                        <div class="project-tag-html"><p class="tag-text">HTML</p></div>
+                        <div class="project-tag-css"><p class="tag-text">CSS</p></div>
+                    </div>
+                </div>
+
+                <div class="build-card">
+                    <h3 class="project-title">Something amazing is cooking!</h3>
+                    <p class="project-text">Keep an eye out... something amazing is on its way...</p>
+                </div>
+
+                <div class="build-card">
+                    <h3 class="project-title">Something amazing is cooking!</h3>
+                    <p class="project-text">Keep an eye out... something amazing is on its way...</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
